@@ -2,10 +2,13 @@
 
 Tile-matching game based on Bejeweled with the movie Interstellar theme.
 
+## Wireframe
+![wireframe](wireframe.jpg)
+
 ## Mechanics
 - A player starts with 10 lives
 
-- There are 5 different elements to match
+- There are 6 different elements to match
   - Earth (Blue)
   - Mars (Red)
   - Saturn (Orange)
@@ -49,7 +52,7 @@ Stoeres the necessary data for the tile object
 
 #### Day 1
 - Create graphics for the game
-  - Board border
+  - Board container
   - Tile elements
 - Render the board and the tiles
 
