@@ -1,0 +1,30 @@
+{
+  "name": "stellio",
+  "version": "0.0.1",
+  "description": "A tile-matching game with Interstellar theme",
+  "main": "stellio.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack",
+    "watch": "webpack -w",
+    "server": "webpack-dev-server --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iserbit/stellio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iserbit/stellio/issues"
+  },
+  "homepage": "https://github.com/iserbit/stellio#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
