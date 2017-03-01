@@ -3,10 +3,27 @@
   <head>
     <meta charset='utf-8'>
     <title>Stellio</title>
-    <script src='./lib/bundle.js' /></script>
+
+    <link rel="stylesheet" href="./style/stellio.css">
+
     <script type='text/javascript' src='https://code.createjs.com/easeljs-0.8.2.min.js'></script>
+    <script type='text/javascript' src='https://code.createjs.com/tweenjs-0.6.2.min.js'></script>
+    <script type='text/javascript' src='https://code.createjs.com/preloadjs-0.6.2.min.js'></script>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src='./lib/bundle.js' /></script>
   </head>
   <body>
-    <h1>Stellio</h1>
+    <div class='page-container'>
+      <div class='left-column'>
+      </div>
+
+      <div class='center-column'>
+        <canvas id='gameCanvas' width='500' height='500'></canvas>
+      </div>
+
+      <div class='right-column'>
+
+      </div>
+    </div>
   </body>
 </html>
