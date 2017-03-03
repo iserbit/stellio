@@ -1,3 +1,2 @@
 - Match tiles (3/4/5)
 - Check board
-- Drop tiles down to empty spaces
