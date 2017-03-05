@@ -1,2 +1,6 @@
-- Match tiles (3/4/5)
-- Check board
+- Implement letting go of the tile
+
+- Fix duplication bug (can't replicate)
+- Fix wrong secondary matches (can't replicate)
+
+- Implement scores

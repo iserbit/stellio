@@ -4,6 +4,7 @@
     <meta charset='utf-8'>
     <title>Stellio</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet">
     <link rel="stylesheet" href="./style/stellio.css">
 
     <script type='text/javascript' src='https://code.createjs.com/easeljs-0.8.2.min.js'></script>
@@ -12,17 +13,26 @@
     <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
     <script src='./lib/bundle.js' /></script>
   </head>
+
   <body>
     <div class='page-container'>
-      <div class='left-column'>
-      </div>
+      <div class='columns-container'>
+        <div class='left-column'>
+          <div class='score-container'>
+            <h2>SCORE </h2>
+            <canvas id='score' width='165' height='50'></canvas>
+          </div>
+          <div class='instructions'>
 
-      <div class='center-column'>
-        <canvas id='gameCanvas' width='500' height='500'></canvas>
-      </div>
+          </div>
+          <div class='title'>
+            <h1>STELLIO</h1>
+          </div>
+        </div>
 
-      <div class='right-column'>
-
+        <div class='right-column'>
+          <canvas id='gameCanvas' width='500' height='500'></canvas>
+        </div>
       </div>
     </div>
   </body>
