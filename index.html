@@ -4,7 +4,7 @@
     <meta charset='utf-8'>
     <title>Stellio</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
     <link rel="stylesheet" href="./style/stellio.css">
 
     <script type='text/javascript' src='https://code.createjs.com/easeljs-0.8.2.min.js'></script>
@@ -16,22 +16,50 @@
 
   <body>
     <div class='page-container'>
-      <div class='columns-container'>
-        <div class='left-column'>
-          <div class='score-container'>
-            <h2>SCORE </h2>
-            <canvas id='score' width='165' height='50'></canvas>
+      <div class='main-container'>
+        <div class='columns-container'>
+          <div class='left-column'>
+            <div class='score-container'>
+              <h2>SCORE </h2>
+              <canvas id='score' width='165' height='50'></canvas>
+            </div>
+            <div class='instructions'>
+              <div class="matches">
+                <div class="match-3">
+                  <img src='./assets/earth.png' />
+                  <img src='./assets/earth.png' />
+                  <img src='./assets/earth.png' />
+                  <h4>100 Points</h4>
+                </div>
+                <div class="match-4">
+                  <img src='./assets/blackhole.png' />
+                  <img src='./assets/blackhole.png' />
+                  <img src='./assets/blackhole.png' />
+                  <img src='./assets/blackhole.png' />
+                  <h4>300 Points</h4>
+                </div>
+                <div class="match-5">
+                  <img src='./assets/sun.png' />
+                  <img src='./assets/sun.png' />
+                  <img src='./assets/sun.png' />
+                  <img src='./assets/sun.png' />
+                  <img src='./assets/sun.png' />
+                  <h4>1000 Points</h4>
+                </div>
+              </div>
+            </div>
+            <div class='title'>
+              <h1>STELLIO</h1>
+            </div>
           </div>
-          <div class='instructions'>
 
-          </div>
-          <div class='title'>
-            <h1>STELLIO</h1>
+          <div class='right-column'>
+            <canvas id='gameCanvas' width='500' height='500'></canvas>
           </div>
         </div>
 
-        <div class='right-column'>
-          <canvas id='gameCanvas' width='500' height='500'></canvas>
+        <div class='footer'>
+          Created by Kevin K. Lee - <a href="http://kevinkiklee.com" target='_blank'>Portfolio</a> // <a href="https://github.com/kevinkiklee" target='_blank'>Github</a> // <a href="https://www.linkedin.com/in/kevinkiklee/" target='_blank'>LinkedIn</a>
         </div>
       </div>
     </div>
