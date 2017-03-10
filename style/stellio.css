@@ -35,9 +35,6 @@ table {
   border-spacing: 0;
 }
 
-
-/* HEADING */
-
 body {
   color: white;
 }
@@ -125,16 +122,37 @@ h4 {
   width: 30px;
 }
 
-.match-3, .match-4, .match-5 {
+.match {
   margin: 5px;
   padding: 5px;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.new-game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.new-game-btn {
+  cursor: pointer;
+  padding: 8px;
+  color: white;
+  background-color: rgba(255, 125, 0, 1);
+  transition: all 0.5s ease 0s;
+}
+
+.new-game-btn:hover {
+  /*color: black;*/
+  background-color: #fe89aa;
+  background-color: rgba(255, 125, 0, 0.8);
+  transition: all 0.5s ease 0s;
+}
+
 .title {
 	height: 20%;
 	text-align: center;
-
 }
 
 .right-column {
@@ -151,6 +169,23 @@ h4 {
 	box-shadow: 0px 0px 36px -10px rgba(255,255,255,0.3);
 }
 
+.instruction-container {
+  position: fixed;
+  bottom: 60px;
+  width: 55%;
+  color: rgba(227, 254, 0, 0.96);
+  text-align: center;
+}
+
+.instruction {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.instruction h4 {
+  font-weight: 400 !important;
+  font-size: 14px;
+  padding: 5px;
+}
 
 .footer {
   position: fixed;

@@ -1,6 +1,15 @@
+Immediate
+
 - Add instructions
-- Fix duplication bug (can't replicate)
-- Implement scores for chains
-- Favicon
-- Jerky mouse movement
+- Cleanup codes
 - New game
+
+Future
+
+- Implement scores for chains
+- Add text animation
+
+Implemented
+
+- Favicon
+- Fix duplication bug (HACK FIX)
