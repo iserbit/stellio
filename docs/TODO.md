@@ -1,6 +1,6 @@
-- Implement letting go of the tile
-
+- Add instructions
 - Fix duplication bug (can't replicate)
-- Fix wrong secondary matches (can't replicate)
-
-- Implement scores
+- Implement scores for chains
+- Favicon
+- Jerky mouse movement
+- New game
