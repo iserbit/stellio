@@ -1,8 +1,6 @@
 Immediate
 
-- Add instructions
 - Cleanup codes
-- New game
 
 Future
 
@@ -11,5 +9,7 @@ Future
 
 Implemented
 
+- New game
+- Add instructions
 - Favicon
 - Fix duplication bug (HACK FIX)
