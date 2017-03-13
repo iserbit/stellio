@@ -4,6 +4,7 @@ Immediate
 
 Future
 
+- Column drops
 - Implement scores for chains
 - Add text animation
 
