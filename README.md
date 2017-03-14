@@ -1,6 +1,6 @@
 # Stellio
 
-![screenshot](docs/stellio.png)
+![screenshot](docs/stellio.gif)
 
 Stellio is a tile-matching game inspired by Bejeweled with the movie Interstellar theme.
 
