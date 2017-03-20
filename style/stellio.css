@@ -208,6 +208,16 @@ h4 {
   transition: all 0.3s ease 0s;
 }
 
+@media only screen
+  and (min-device-width: 300px)
+  and (max-device-width: 800px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+  .instruction-container {
+    display: none;
+  }
+}
+
 /* Portrait */
 @media only screen
   and (min-device-width: 300px)
@@ -221,7 +231,8 @@ h4 {
     flex-direction: column;
   }
 
-  .instructions, .instruction-container {
+  .instructions,
+  .instruction-container {
     display: none;
   }
 
@@ -283,4 +294,23 @@ h4 {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
 
+  .left-column {
+    width: 50%;
+  }
+
+
+  #gameCanvas {
+    width: 570px;
+    height: 570px;
+    position: fixed;
+    right: 0px;
+  }
+
+  .columns-container {
+    width: 100%;
+  }
+
+  .footer {
+    display: none;
+  }
 }
